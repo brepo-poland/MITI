@@ -1,7 +1,7 @@
 # BREPO_MITI — Master IT Integrator
 
-**Menedżer połączeń i kluczy SSH/SFTP dla Windows** — natywna aplikacja C++/Win32,
-która w czasie działania **nie uruchamia cmd ani PowerShell**.
+**Menedżer połączeń i kluczy SSH/SFTP dla Windows.** Natywna aplikacja C++/Win32 —
+jeden plik `.exe`, bez instalatora.
 
 🇵🇱 Wersja polska poniżej · 🇬🇧 English version below.
 
@@ -11,9 +11,9 @@ która w czasie działania **nie uruchamia cmd ani PowerShell**.
 
 ## 🇵🇱 Polski
 
-Menedżer połączeń i kluczy SSH/SFTP dla Windows. Loguje się kluczem lub hasłem, generuje
-i wgrywa klucze Ed25519 na serwer, a klucze prywatne trzyma zaszyfrowane mechanizmem
-**DPAPI** — odczyta je tylko Twoje konto Windows, nic nie leży jawnie na dysku.
+Loguje się kluczem lub hasłem, generuje i wgrywa klucze Ed25519 na serwer, a klucze
+prywatne trzyma zaszyfrowane mechanizmem **DPAPI** — odczyta je tylko Twoje konto
+Windows, nic nie leży jawnie na dysku.
 
 ### Co potrafi
 - **SSH / TTY** — interaktywna sesja terminalowa (silnik plink), prawdziwy TTY w tym samym oknie.
@@ -40,9 +40,12 @@ są **pobierane** w czasie działania z oficjalnych źródeł i pozostają na w�
 
 ## 🇬🇧 English
 
-An SSH/SFTP connection and key manager for Windows. It logs in with a key or a password,
-generates and uploads Ed25519 keys to the server, and keeps private keys encrypted with
-**DPAPI** — only your Windows account can read them, nothing is stored in plaintext.
+**An SSH/SFTP connection and key manager for Windows.** A native C++/Win32 application —
+a single `.exe`, no installer.
+
+It logs in with a key or a password, generates and uploads Ed25519 keys to the server, and
+keeps private keys encrypted with **DPAPI** — only your Windows account can read them,
+nothing is stored in plaintext.
 
 ### Features
 - **SSH / TTY** — interactive terminal session (plink engine), a real TTY in the same window.
