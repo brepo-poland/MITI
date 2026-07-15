@@ -11,6 +11,10 @@ jeden plik `.exe`, bez instalatora.
 
 ## 🇵🇱 Polski
 
+**Aplikacja konsolowa** — otwiera się w oknie terminala (to „czarne okno" podobne do wiersza
+poleceń). Tak jest **celowo**: sesja SSH (plink) płynie w **tym samym oknie**, z prawdziwym
+TTY, zamiast wyskakiwać w osobnym.
+
 Loguje się kluczem lub hasłem, generuje i wgrywa klucze Ed25519 na serwer, a klucze
 prywatne trzyma zaszyfrowane mechanizmem **DPAPI** — odczyta je tylko Twoje konto
 Windows, nic nie leży jawnie na dysku.
@@ -42,6 +46,10 @@ są **pobierane** w czasie działania z oficjalnych źródeł i pozostają na w�
 
 **An SSH/SFTP connection and key manager for Windows.** A native C++/Win32 application —
 a single `.exe`, no installer.
+
+**A console application** — it opens in a terminal window (the "black window" that looks like
+a command prompt). This is **by design**: the SSH session (plink) runs in **that same window**
+with a real TTY, instead of popping up separately.
 
 It logs in with a key or a password, generates and uploads Ed25519 keys to the server, and
 keeps private keys encrypted with **DPAPI** — only your Windows account can read them,
