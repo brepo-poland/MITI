@@ -1,0 +1,65 @@
+BREPO_MITI - Master IT Integrator
+Copyright (c) 2026 [POLAND] Brepo Sp. z o.o. (Tax ID / EU VAT No.: PL6351772381)
+
+===================== POLSKI (Licencja MIT) =====================
+
+Niniejszym udziela sie zgody, bezplatnie, kazdej osobie wchodzacej w posiadanie
+kopii tego oprogramowania i powiazanych plikow (dalej "Oprogramowanie"), na
+korzystanie z Oprogramowania bez ograniczen, w tym bez ograniczen prawa do
+uzywania, kopiowania, modyfikowania, laczenia, publikowania, dystrybucji,
+sublicencjonowania i/lub sprzedazy kopii Oprogramowania, oraz zezwalania na to
+osobom, ktorym Oprogramowanie zostalo dostarczone, z zastrzezeniem nastepujacych
+warunkow:
+
+Powyzsza nota o prawach autorskich oraz niniejsza nota o zezwoleniu musza zostac
+zawarte we wszystkich kopiach lub istotnych czesciach Oprogramowania.
+
+OPROGRAMOWANIE JEST DOSTARCZANE "TAK JAK JEST", BEZ JAKIEJKOLWIEK GWARANCJI,
+WYRAZNEJ LUB DOROZUMIANEJ, W TYM BEZ GWARANCJI PRZYDATNOSCI HANDLOWEJ,
+PRZYDATNOSCI DO OKRESLONEGO CELU I NIENARUSZANIA PRAW. W ZADNYM WYPADKU AUTORZY
+ANI POSIADACZE PRAW AUTORSKICH NIE PONOSZA ODPOWIEDZIALNOSCI ZA JAKIEKOLWIEK
+ROSZCZENIA, SZKODY LUB INNA ODPOWIEDZIALNOSC, CZY TO Z TYTULU UMOWY, DELIKTU CZY
+INNEJ, WYNIKAJACA Z LUB ZWIAZANA Z OPROGRAMOWANIEM LUB JEGO UZYWANIEM.
+
+===================== ENGLISH (MIT License) =====================
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+===================== Podziekowania / Acknowledgements =====================
+
+[PL] Ogromne podziekowania dla autorow ponizszych narzedzi - stworzyli cos
+naprawde przydatnego. BREPO_MITI jedynie sprobowal polaczyc te swietne kawalki
+w jedna, wygodna calosc dla Windows. Cala zasluga za same narzedzia nalezy do
+ich tworcow.
+
+[EN] Huge thanks to the authors of the tools below - they built something
+genuinely useful. BREPO_MITI merely tries to bring these great pieces together
+into one convenient whole for Windows. All credit for the tools themselves goes
+to their creators.
+
+===================== Komponenty firm trzecich / Third-party components =====================
+
+[PL] To oprogramowanie POBIERA (nie rozprowadza) ponizsze narzedzia z ich
+oficjalnych zrodel; kazde pozostaje na wlasnej licencji:
+[EN] This software DOWNLOADS (does not redistribute) the tools below from their
+official sources; each remains under its own license:
+
+  - PuTTY / plink (Simon Tatham)          - MIT
+  - WinSCP (Martin Prikryl)               - GNU GPL
+  - winssh-pageant (ndbeals)              - patrz repo projektu / see project repo
+  - OpenSSH ssh-keygen                    - skladnik Windows / Windows component
