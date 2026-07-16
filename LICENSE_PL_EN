@@ -1,0 +1,77 @@
+============================================================================
+  BREPO_MITI - Master IT Integrator
+  PEŁNE INFORMACJE O LICENCJI (PL/EN) + PODZIĘKOWANIA + SKŁADNIKI
+  FULL LICENSE INFORMATION (PL/EN) + ACKNOWLEDGEMENTS + COMPONENTS
+============================================================================
+
+[PL] Wiążącym tekstem licencji jest plik LICENSE (licencja MIT po angielsku).
+     Ten plik to wygodne, pełne omówienie po polsku i angielsku - nie zastępuje
+     LICENSE, tylko go uzupełnia.
+[EN] The binding license text is the LICENSE file (MIT License, in English).
+     This file is a convenient full PL/EN restatement - it does not replace
+     LICENSE, it complements it.
+
+Copyright (c) 2026 [POLAND] Brepo Sp. z o.o. (Tax ID / EU VAT No.: PL6351772381)
+
+===================== POLSKI (Licencja MIT) =====================
+
+Niniejszym udziela się zgody, bezpłatnie, każdej osobie wchodzącej w posiadanie
+kopii tego oprogramowania i powiązanych plików (dalej "Oprogramowanie"), na
+korzystanie z Oprogramowania bez ograniczeń, w tym bez ograniczeń prawa do
+używania, kopiowania, modyfikowania, łączenia, publikowania, dystrybucji,
+sublicencjonowania i/lub sprzedaży kopii Oprogramowania, oraz zezwalania na to
+osobom, którym Oprogramowanie zostało dostarczone, z zastrzeżeniem następujących
+warunków:
+
+Powyższa nota o prawach autorskich oraz niniejsza nota o zezwoleniu muszą zostać
+zawarte we wszystkich kopiach lub istotnych częściach Oprogramowania.
+
+OPROGRAMOWANIE JEST DOSTARCZANE "TAK JAK JEST", BEZ JAKIEJKOLWIEK GWARANCJI,
+WYRAŹNEJ LUB DOROZUMIANEJ, W TYM BEZ GWARANCJI PRZYDATNOŚCI HANDLOWEJ,
+PRZYDATNOŚCI DO OKREŚLONEGO CELU I NIENARUSZANIA PRAW. W ŻADNYM WYPADKU AUTORZY
+ANI POSIADACZE PRAW AUTORSKICH NIE PONOSZĄ ODPOWIEDZIALNOŚCI ZA JAKIEKOLWIEK
+ROSZCZENIA, SZKODY LUB INNĄ ODPOWIEDZIALNOŚĆ, CZY TO Z TYTUŁU UMOWY, DELIKTU CZY
+INNEJ, WYNIKAJĄCĄ Z LUB ZWIĄZANĄ Z OPROGRAMOWANIEM LUB JEGO UŻYWANIEM.
+
+===================== ENGLISH (MIT License) =====================
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+===================== Podziękowania / Acknowledgements =====================
+
+[PL] Ogromne podziękowania dla autorów poniższych narzędzi - stworzyli coś
+naprawdę przydatnego. BREPO_MITI jedynie spróbował połączyć te świetne kawałki
+w jedną, wygodną całość dla Windows. Cała zasługa za same narzędzia należy do
+ich twórców.
+
+[EN] Huge thanks to the authors of the tools below - they built something
+genuinely useful. BREPO_MITI merely tries to bring these great pieces together
+into one convenient whole for Windows. All credit for the tools themselves goes
+to their creators.
+
+===================== Składniki innych twórców / Third-party components =====================
+
+[PL] To oprogramowanie POBIERA (nie rozprowadza) poniższe narzędzia z ich
+oficjalnych źródeł; każde pozostaje na własnej licencji:
+[EN] This software DOWNLOADS (does not redistribute) the tools below from their
+official sources; each remains under its own license:
+
+  - PuTTY / plink (Simon Tatham)          - MIT
+  - WinSCP (Martin Prikryl)               - GNU GPL
+  - winssh-pageant (ndbeals)              - patrz repo projektu / see project repo
+  - OpenSSH ssh-keygen                    - składnik Windows / Windows component
