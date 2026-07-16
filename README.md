@@ -86,4 +86,21 @@ tool authors: [LICENSE_PL_EN](LICENSE_PL_EN). The tools (plink / WinSCP / winssh
 
 ---
 
+## Podziękowania · Acknowledgements
+
+**PL** — Ogromne podziękowania dla autorów poniższych narzędzi — zrobili świetną robotę, a BREPO_MITI jedynie łączy je w wygodną całość dla Windows. Narzędzia są pobierane w czasie działania z oficjalnych źródeł i pozostają na własnych licencjach.
+
+**EN** — Huge thanks to the authors of the tools below — they did great work; BREPO_MITI merely brings them together into one convenient whole for Windows. The tools are downloaded at runtime from their official sources and remain under their own licenses.
+
+| Narzędzie · Tool | Autor · Author | Licencja · License |
+|---|---|---|
+| [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) / plink | Simon Tatham | MIT |
+| [WinSCP](https://winscp.net/) | Martin Prikryl | GNU GPL |
+| [winssh-pageant](https://github.com/ndbeals/winssh-pageant) | ndbeals | patrz repo · see repo |
+| OpenSSH `ssh-keygen` | OpenSSH Project / Microsoft | składnik Windows · Windows component |
+
+Pełne informacje o licencjach · full license info: [LICENSE_PL_EN](LICENSE_PL_EN).
+
+---
+
 © 2026 [POLAND] Brepo Sp. z o.o. · <https://brepo.pl>
