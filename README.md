@@ -8,11 +8,19 @@
 
 **Pobierz / Download:** [Releases → `BREPO_MITI.exe`](https://github.com/brepo-poland/MITI/releases/latest)
 
-> ### 🧪 Szukamy testerów — v2 (w drodze) · Looking for testers — v2 (coming)
+> ### 💬 Community & Support · Społeczność i wsparcie
 >
-> **PL** — Szykujemy wydanie **v2** i szukamy testerów (Windows 10 1809+ / 11, 64-bit, praca z SSH/SFTP). Obecne wydanie na Releases to **v1.0.0.0** — możesz je już testować; **v2 ogłosimy tutaj**, gdy trafi na Releases. Co testujemy: SSH/TTY (plink), WinSCP/SFTP, klucze Ed25519, DPAPI, samoaktualizacja, PL/EN. Jak dołączyć: pobierz `BREPO_MITI.exe` (bez instalacji, aplikacja konsolowa), a uwagi/błędy zgłoś w [Issues](https://github.com/brepo-poland/MITI/issues) (szablon „Bug report" — kroki + wersja Windows).
+> **[PL]** Dołącz do społeczności, pytaj o pomoc, zgłaszaj błędy i pomóż testować:
+> - 💬 **[r/miti_app](https://www.reddit.com/r/miti_app/)** — oficjalna społeczność MITI na Reddicie.
+> - 🐛 **Błąd?** Otwórz [Issue](https://github.com/brepo-poland/MITI/issues) (szablon „Bug report") albo napisz na r/miti_app.
+> - 💡 **Pomysł na funkcję?** Chętnie posłuchamy — Issues lub społeczność.
+> - 🧪 **Testy v2:** szykujemy **v2** (obecne wydanie na [Releases](https://github.com/brepo-poland/MITI/releases) to v1.0.0.0). Pobierz `BREPO_MITI.exe`, sprawdź swój codzienny scenariusz SSH/SFTP i zgłoś uwagi. Wymagania: Windows 10 (1809+) 64-bit.
 >
-> **EN** — We're preparing the **v2** release and looking for testers (Windows 10 1809+ / 11, 64-bit, SSH/SFTP work). The current Releases build is **v1.0.0.0** — you can test it now; **we'll announce v2 here** once it's out. What to test: SSH/TTY (plink), WinSCP/SFTP, Ed25519 keys, DPAPI, self-update, PL/EN. How to join: download `BREPO_MITI.exe` (no install, console app) and report in [Issues](https://github.com/brepo-poland/MITI/issues) (use the "Bug report" template — steps + your Windows version).
+> **[EN]** Join the community, ask for help, report bugs, and help test:
+> - 💬 **[r/miti_app](https://www.reddit.com/r/miti_app/)** — the official MITI community on Reddit.
+> - 🐛 **Found a bug?** Open an [issue](https://github.com/brepo-poland/MITI/issues) (use the "Bug report" template) or post in r/miti_app.
+> - 💡 **Feature idea?** We'd love to hear it — Issues or the community.
+> - 🧪 **Testing v2:** we're preparing **v2** (current [Releases](https://github.com/brepo-poland/MITI/releases) build is v1.0.0.0). Download `BREPO_MITI.exe`, try your everyday SSH/SFTP workflow, and report back. Requirements: Windows 10 (1809+) 64-bit.
 >
 > Dziękujemy! 🙏 · Thanks! 🙏
 
