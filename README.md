@@ -6,7 +6,21 @@
 
 **PL** — wersja polska poniżej · **EN** — English version below.
 
+**Strona / Website:** <https://miti.brepo.pl>
+
 **Pobierz / Download:** [Releases → `BREPO_MITI.exe`](https://github.com/brepo-poland/MITI/releases/latest)
+
+### 🖥️ Podgląd · Preview
+
+**[PL]** To jest **widok oprogramowania** — ekran główny MITI w oknie konsoli (menu, stan
+narzędzi, weryfikacja podpisów i sum SHA-256, kontrola wersji). Po lewej/na górze wersja PL,
+poniżej wersja EN.
+**[EN]** This is a **view of the software** — the MITI main screen in the console window (menu,
+tool status, signature and SHA-256 verification, version check). PL version first, EN below.
+
+![MITI — widok oprogramowania · application view (PL)](BREPO_MITI_v1.0.0.0_screenshot-pl.png)
+
+![MITI — widok oprogramowania · application view (EN)](BREPO_MITI_v1.0.0.0_screenshot-en.png)
 
 > ### 💬 Community & Support · Społeczność i wsparcie
 >
@@ -14,6 +28,7 @@
 > - 💬 **[r/miti_app](https://www.reddit.com/r/miti_app/)** — oficjalna społeczność MITI na Reddicie.
 > - 🐛 **Błąd?** Otwórz [Issue](https://github.com/brepo-poland/MITI/issues) (szablon „Bug report") albo napisz na r/miti_app.
 > - 💡 **Pomysł na funkcję?** Chętnie posłuchamy — Issues lub społeczność.
+> - 📧 **Kontakt:** [miti@brepo.pl](mailto:miti@brepo.pl) — napisz do nas bezpośrednio.
 > - 🧪 **Testy v2:** szykujemy **v2** (obecne wydanie na [Releases](https://github.com/brepo-poland/MITI/releases) to v1.0.0.0). Pobierz `BREPO_MITI.exe`, sprawdź swój codzienny scenariusz SSH/SFTP i zgłoś uwagi. Wymagania: Windows 10 (1809+) 64-bit.
 >
 > **[EN]** Join the community, ask for help, report bugs, and help test:
@@ -111,4 +126,4 @@ Pełne informacje o licencjach · full license info: [LICENSE_PL_EN](LICENSE_PL_
 
 ---
 
-© 2026 [POLAND] Brepo Sp. z o.o. · <https://brepo.pl>
+© 2026 [POLAND] Brepo Sp. z o.o. · Strona / Website: <https://miti.brepo.pl> · <https://brepo.pl>
