@@ -18,9 +18,9 @@ poniżej wersja EN.
 **[EN]** This is a **view of the software** — the MITI main screen in the console window (menu,
 tool status, signature and SHA-256 verification, version check). PL version first, EN below.
 
-![MITI — widok oprogramowania · application view (PL)](BREPO_MITI_v1.0.0.0_screenshot-pl.png)
+![MITI — widok oprogramowania · application view (PL)](BREPO_MITI_screenshot_pl.png)
 
-![MITI — widok oprogramowania · application view (EN)](BREPO_MITI_v1.0.0.0_screenshot-en.png)
+![MITI — widok oprogramowania · application view (EN)](BREPO_MITI_screenshot_en.png)
 
 > ### 💬 Community & Support · Społeczność i wsparcie
 >
