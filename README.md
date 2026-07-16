@@ -97,7 +97,6 @@ tool authors: [LICENSE_PL_EN](LICENSE_PL_EN). The tools (plink / WinSCP / winssh
 | [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) / plink | Simon Tatham | MIT |
 | [WinSCP](https://winscp.net/) | Martin Prikryl | GNU GPL |
 | [winssh-pageant](https://github.com/ndbeals/winssh-pageant) | ndbeals | patrz repo · see repo |
-| OpenSSH `ssh-keygen` | OpenSSH Project / Microsoft | składnik Windows · Windows component |
 
 Pełne informacje o licencjach · full license info: [LICENSE_PL_EN](LICENSE_PL_EN).
 
