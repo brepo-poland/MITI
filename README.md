@@ -1,7 +1,8 @@
 # BREPO_MITI — Master IT Integrator
 
-**Menedżer połączeń i kluczy SSH/SFTP dla Windows.** Natywna aplikacja C++/Win32 —
-jeden plik `.exe`, bez instalatora.
+**[PL]** Menedżer połączeń i kluczy SSH/SFTP dla Windows. Natywna aplikacja C++/Win32 — jeden plik `.exe`, bez instalatora.
+
+**[EN]** An SSH/SFTP connection and key manager for Windows. A native C++/Win32 application — a single `.exe`, no installer.
 
 **PL** — wersja polska poniżej · **EN** — English version below.
 
