@@ -7,6 +7,14 @@ jeden plik `.exe`, bez instalatora.
 
 **Pobierz / Download:** [Releases → `BREPO_MITI.exe`](https://github.com/brepo-poland/MITI/releases/latest)
 
+> ### 🧪 Szukamy testerów — v2 (w drodze) · Looking for testers — v2 (coming)
+>
+> **PL** — Szykujemy wydanie **v2** i szukamy testerów (Windows 10 1809+ / 11, 64-bit, praca z SSH/SFTP). Obecne wydanie na Releases to **v1.0.0.0** — możesz je już testować; **v2 ogłosimy tutaj**, gdy trafi na Releases. Co testujemy: SSH/TTY (plink), WinSCP/SFTP, klucze Ed25519, DPAPI, samoaktualizacja, PL/EN. Jak dołączyć: pobierz `BREPO_MITI.exe` (bez instalacji, aplikacja konsolowa), a uwagi/błędy zgłoś w [Issues](https://github.com/brepo-poland/MITI/issues) (szablon „Bug report" — kroki + wersja Windows).
+>
+> **EN** — We're preparing the **v2** release and looking for testers (Windows 10 1809+ / 11, 64-bit, SSH/SFTP work). The current Releases build is **v1.0.0.0** — you can test it now; **we'll announce v2 here** once it's out. What to test: SSH/TTY (plink), WinSCP/SFTP, Ed25519 keys, DPAPI, self-update, PL/EN. How to join: download `BREPO_MITI.exe` (no install, console app) and report in [Issues](https://github.com/brepo-poland/MITI/issues) (use the "Bug report" template — steps + your Windows version).
+>
+> Dziękujemy! 🙏 · Thanks! 🙏
+
 ---
 
 ## PL — Polski
