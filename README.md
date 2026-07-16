@@ -3,13 +3,13 @@
 **Menedżer połączeń i kluczy SSH/SFTP dla Windows.** Natywna aplikacja C++/Win32 —
 jeden plik `.exe`, bez instalatora.
 
-🇵🇱 Wersja polska poniżej · 🇬🇧 English version below.
+**PL** — wersja polska poniżej · **EN** — English version below.
 
 **Pobierz / Download:** [Releases → `BREPO_MITI.exe`](https://github.com/brepo-poland/MITI/releases/latest)
 
 ---
 
-## 🇵🇱 Polski
+## PL — Polski
 
 **Aplikacja konsolowa** — otwiera się w oknie terminala (to „czarne okno" podobne do wiersza
 poleceń). Tak jest **celowo**: sesja SSH (plink) płynie w **tym samym oknie**, z prawdziwym
@@ -42,7 +42,7 @@ są **pobierane** w czasie działania z oficjalnych źródeł i pozostają na w�
 
 ---
 
-## 🇬🇧 English
+## EN — English
 
 **An SSH/SFTP connection and key manager for Windows.** A native C++/Win32 application —
 a single `.exe`, no installer.
