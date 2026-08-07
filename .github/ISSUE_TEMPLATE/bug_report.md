@@ -21,7 +21,8 @@ Co się stało (krótko):
 ### Środowisko
 - Wersja MITI (ekran startowy „Aplikacja: BREPO_MITI vX"):
 - Windows (np. 10 22H2 / 11) + build (ekran startowy „Windows build ..."):
-- Narzędzia z ekranu startowego (plink / WinSCP / winssh-pageant):
+- Narzędzia z ekranu startowego (ssh.exe / WinSCP / bws / Bitwarden):
+- Magazyn, którego dotyczy problem: DPAPI (lokalny) / Bitwarden Secrets Manager / oba:
 
 ### Logi (opcjonalnie)
 Z `%LOCALAPPDATA%\BREPO_MITI\v<N>\logs\` — **usuń dane wrażliwe** (hosty, loginy, IP).
@@ -42,7 +43,8 @@ What happened (briefly):
 ### Environment
 - MITI version (startup line "Aplikacja: BREPO_MITI vX"):
 - Windows (e.g. 10 22H2 / 11) + build (startup "Windows build ..."):
-- Tools from the startup screen (plink / WinSCP / winssh-pageant):
+- Tools from the startup screen (ssh.exe / WinSCP / bws / Bitwarden):
+- Store the problem concerns: DPAPI (local) / Bitwarden Secrets Manager / both:
 
 ### Logs (optional)
 From `%LOCALAPPDATA%\BREPO_MITI\v<N>\logs\` — **remove sensitive data** (hosts, logins, IPs).
