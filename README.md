@@ -29,13 +29,13 @@ tool status, signature and SHA-256 verification, version check). PL version firs
 > - 🐛 **Błąd?** Otwórz [Issue](https://github.com/brepo-poland/MITI/issues) (szablon „Bug report") albo napisz na r/miti_app.
 > - 💡 **Pomysł na funkcję?** Chętnie posłuchamy — Issues lub społeczność.
 > - 📧 **Kontakt:** [miti@brepo.pl](mailto:miti@brepo.pl) — napisz do nas bezpośrednio.
-> - 🧪 **Testy v2:** szykujemy **v2** (obecne wydanie na [Releases](https://github.com/brepo-poland/MITI/releases) to v1.0.0.0). Pobierz `BREPO_MITI.exe`, sprawdź swój codzienny scenariusz SSH/SFTP i zgłoś uwagi. Wymagania: Windows 10 (1809+) 64-bit.
+> - 🧪 **Testy:** pobierz `BREPO_MITI.exe` z [Releases](https://github.com/brepo-poland/MITI/releases/latest), sprawdź swój codzienny scenariusz SSH/SFTP i zgłoś uwagi. Lista kontrolna: [TESTING.md](TESTING.md). Wymagania: Windows 10 (1809+) 64-bit.
 >
 > **[EN]** Join the community, ask for help, report bugs, and help test:
 > - 💬 **[r/miti_app](https://www.reddit.com/r/miti_app/)** — the official MITI community on Reddit.
 > - 🐛 **Found a bug?** Open an [issue](https://github.com/brepo-poland/MITI/issues) (use the "Bug report" template) or post in r/miti_app.
 > - 💡 **Feature idea?** We'd love to hear it — Issues or the community.
-> - 🧪 **Testing v2:** we're preparing **v2** (current [Releases](https://github.com/brepo-poland/MITI/releases) build is v1.0.0.0). Download `BREPO_MITI.exe`, try your everyday SSH/SFTP workflow, and report back. Requirements: Windows 10 (1809+) 64-bit.
+> - 🧪 **Testing:** download `BREPO_MITI.exe` from [Releases](https://github.com/brepo-poland/MITI/releases/latest), try your everyday SSH/SFTP workflow, and report back. Checklist: [TESTING.md](TESTING.md). Requirements: Windows 10 (1809+) 64-bit.
 >
 > Dziękujemy! 🙏 · Thanks! 🙏
 
@@ -44,7 +44,7 @@ tool status, signature and SHA-256 verification, version check). PL version firs
 ## PL — Polski
 
 **Aplikacja konsolowa** — otwiera się w oknie terminala (to „czarne okno" podobne do wiersza
-poleceń). Tak jest **celowo**: sesja SSH (plink) płynie w **tym samym oknie**, z prawdziwym
+poleceń). Tak jest **celowo**: sesja SSH (systemowy OpenSSH) płynie w **tym samym oknie**, z prawdziwym
 TTY, zamiast wyskakiwać w osobnym.
 
 Loguje się kluczem lub hasłem, generuje i wgrywa klucze Ed25519 na serwer, a klucze
@@ -52,10 +52,16 @@ prywatne trzyma zaszyfrowane mechanizmem **DPAPI** — odczyta je tylko Twoje ko
 Windows, nic nie leży jawnie na dysku.
 
 ### Co potrafi
-- **SSH / TTY** — interaktywna sesja terminalowa (silnik plink), prawdziwy TTY w tym samym oknie.
+- **SSH / TTY** — interaktywna sesja terminalowa (silnik: systemowy OpenSSH), prawdziwy TTY w tym samym oknie.
 - **WinSCP / SFTP** — graficzne przeglądanie i przesyłanie plików.
-- **Klucze DPAPI** — podgląd kluczy w magazynie, logowanie hasłem oraz wgranie/wygenerowanie klucza (Ed25519) na serwerze, z opcją przejścia na root (sudo/su).
-- **Narzędzia portable** — pobiera i weryfikuje plink / WinSCP / winssh-pageant (podpis cyfrowy + SHA-256 zapamiętane w DPAPI).
+- **Nowy serwer** — logowanie hasłem lub samym kluczem: wygenerowanie i wgranie klucza Ed25519, z opcją przejścia na root (sudo/su).
+- **Moje klucze** — lista i status artefaktów, zmiana nazwy, usuwanie, wymiana klucza na serwerze oraz test „czy faktycznie loguje" z auto-naprawą.
+- **Cztery rodzaje artefaktów** — klucz prywatny SSH (`.dpapi`), hasło użytkownika (`.pdpapi`) oraz token i klucz API (`.bdpapi`), wszystkie opisane standardem **MITI KEY FORMAT V11** (19 pól w stałej kolejności).
+- **Dwa magazyny** — lokalny DPAPI oraz opcjonalnie **Bitwarden Secrets Manager**; widok pokazuje, z którego magazynu pochodzi odczyt.
+- **Import** — pliki MITI `.dpapi` z backupu lub innego folderu, a także obcy klucz OpenSSH.
+- **Podgląd zawartości** — odszyfrowanie artefaktu z obu magazynów, sekret w osobnej linii do skopiowania.
+- **Polecenie awaryjne** — jedna linia PowerShella odszyfrowująca wszystko **bez udziału MITI**, gdyby program nie chciał się uruchomić.
+- **Narzędzia portable** — pobiera i weryfikuje WinSCP i bws (klient SSH jest składnikiem Windows - nie pobieramy go) (podpis cyfrowy + SHA-256 zapamiętane w DPAPI).
 - **Bitwarden SSH Agent** — opcjonalnie logowanie kluczem trzymanym w Bitwardenie.
 - **Samoaktualizacja** — sprawdza nowszą wersję i (za zgodą) sama się aktualizuje.
 
@@ -69,7 +75,7 @@ kliknij **Więcej informacji → Uruchom mimo to**, albo we Właściwościach pl
 
 ### Licencja
 MIT — pełny tekst w pliku [LICENSE](LICENSE). Pełne informacje PL/EN oraz podziękowania dla
-autorów narzędzi: [LICENSE_PL_EN](LICENSE_PL_EN). Narzędzia (plink / WinSCP / winssh-pageant)
+autorów narzędzi: [LICENSE_PL_EN](LICENSE_PL_EN). Narzędzia (WinSCP / bws)
 są **pobierane** w czasie działania z oficjalnych źródeł i pozostają na własnych licencjach.
 
 ---
@@ -80,7 +86,7 @@ są **pobierane** w czasie działania z oficjalnych źródeł i pozostają na w�
 a single `.exe`, no installer.
 
 **A console application** — it opens in a terminal window (the "black window" that looks like
-a command prompt). This is **by design**: the SSH session (plink) runs in **that same window**
+a command prompt). This is **by design**: the SSH session (system OpenSSH) runs in **that same window**
 with a real TTY, instead of popping up separately.
 
 It logs in with a key or a password, generates and uploads Ed25519 keys to the server, and
@@ -88,10 +94,16 @@ keeps private keys encrypted with **DPAPI** — only your Windows account can re
 nothing is stored in plaintext.
 
 ### Features
-- **SSH / TTY** — interactive terminal session (plink engine), a real TTY in the same window.
+- **SSH / TTY** — interactive terminal session (engine: system OpenSSH), a real TTY in the same window.
 - **WinSCP / SFTP** — graphical file browsing and transfer.
-- **DPAPI keys** — view keys in the store, password login and uploading/generating an Ed25519 key on the server, with an optional switch to root (sudo/su).
-- **Portable tools** — downloads and verifies plink / WinSCP / winssh-pageant (digital signature + SHA-256 remembered in DPAPI).
+- **New server** — password login or key-only: generate and install an Ed25519 key, with an optional switch to root (sudo/su).
+- **My keys** — list and status of artifacts, rename, delete, rotate a key on the server, and a "does it actually log in" test with auto-repair.
+- **Four artifact kinds** — SSH private key (`.dpapi`), user password (`.pdpapi`), plus API token and API key (`.bdpapi`), all described by the **MITI KEY FORMAT V11** standard (19 fields in a fixed order).
+- **Two stores** — local DPAPI and optionally **Bitwarden Secrets Manager**; the view shows which store a read came from.
+- **Import** — MITI `.dpapi` files from a backup or another folder, and foreign OpenSSH keys.
+- **Content viewer** — decrypt an artifact from either store, with the secret on its own line ready to copy.
+- **Emergency command** — a single PowerShell line that decrypts everything **without MITI**, should the program refuse to start.
+- **Portable tools** — downloads and verifies WinSCP and bws (the SSH client is a Windows component - not downloaded) (digital signature + SHA-256 remembered in DPAPI).
 - **Bitwarden SSH Agent** — optionally log in with a key kept in Bitwarden.
 - **Self-update** — checks for a newer version and (on approval) updates itself.
 
@@ -105,7 +117,7 @@ shows an "unrecognized app" warning (a new release is still building reputation)
 
 ### License
 MIT — full text in [LICENSE](LICENSE). Full PL/EN information and acknowledgements to the
-tool authors: [LICENSE_PL_EN](LICENSE_PL_EN). The tools (plink / WinSCP / winssh-pageant) are
+tool authors: [LICENSE_PL_EN](LICENSE_PL_EN). The tools (WinSCP / bws) are
 **downloaded** at runtime from their official sources and remain under their own licenses.
 
 ---
@@ -118,9 +130,12 @@ tool authors: [LICENSE_PL_EN](LICENSE_PL_EN). The tools (plink / WinSCP / winssh
 
 | Narzędzie · Tool | Autor · Author | Licencja · License |
 |---|---|---|
-| [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) / [plink](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) | Simon Tatham | MIT |
 | [WinSCP](https://winscp.net/) | Martin Prikryl | GNU GPL |
-| [winssh-pageant](https://github.com/ndbeals/winssh-pageant) | ndbeals | patrz repo · see repo |
+| [Bitwarden Secrets Manager CLI](https://github.com/bitwarden/sdk-sm) | Bitwarden Inc. | GNU GPL / Bitwarden License |
+
+Klient SSH (`ssh.exe`, `ssh-keygen.exe`) jest **składnikiem systemu Windows** — nie pobieramy go
+i nie pieczętujemy jego sumy kontrolnej, bo podpisuje go i aktualizuje producent systemu.
+· The SSH client is a **Windows system component** — not downloaded, not checksum-sealed.
 
 Pełne informacje o licencjach · full license info: [LICENSE_PL_EN](LICENSE_PL_EN).
 
