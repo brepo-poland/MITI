@@ -71,7 +71,25 @@ oficjalnych źródeł; każde pozostaje na własnej licencji:
 [EN] This software DOWNLOADS (does not redistribute) the tools below from their
 official sources; each remains under its own license:
 
-  - PuTTY / plink (Simon Tatham)          - MIT
   - WinSCP (Martin Prikryl)               - GNU GPL
-  - winssh-pageant (ndbeals)              - patrz repo projektu / see project repo
-  - OpenSSH ssh-keygen                    - składnik Windows / Windows component
+  - Bitwarden Secrets Manager CLI / bws (Bitwarden Inc.)
+                                          - GNU GPL / Bitwarden License
+
+[PL] Składniki systemu Windows - NIE pobieramy ich i nie pieczętujemy sum
+kontrolnych; podpisuje je i aktualizuje producent systemu:
+[EN] Windows system components - NOT downloaded and NOT checksum-sealed; signed
+and updated by the OS vendor:
+
+  - OpenSSH: ssh.exe, ssh-keygen.exe      - składnik Windows / Windows component
+
+[PL] Opcjonalnie, gdy użytkownik go zainstaluje: Bitwarden (aplikacja desktop)
+jako agent SSH na potoku \\.\pipe\openssh-ssh-agent.
+[EN] Optional, if the user installs it: Bitwarden (desktop app) acting as an SSH
+agent over the \\.\pipe\openssh-ssh-agent named pipe.
+
+[PL] Od wersji 2.0.0.0 NIE używamy już PuTTY / plink (Simon Tatham) ani
+winssh-pageant (ndbeals). Podziękowania dla ich autorów pozostają w mocy - te
+narzędzia niosły v1. Zastąpił je OpenSSH dostarczany z Windows.
+[EN] Since 2.0.0.0 we no longer use PuTTY / plink (Simon Tatham) or
+winssh-pageant (ndbeals). Our thanks to their authors still stand - those tools
+carried v1. They were replaced by the OpenSSH shipped with Windows.
